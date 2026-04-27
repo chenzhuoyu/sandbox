@@ -1,0 +1,5 @@
+ignore-interior-mutability = [
+    "bytes::Bytes",
+    "faststr::FastStr",
+    "span::Symbol",
+]

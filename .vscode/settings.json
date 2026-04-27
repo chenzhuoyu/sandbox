@@ -1,0 +1,17 @@
+{
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "rust-analyzer.cargo.extraEnv": {
+    "__BUILD_WITH_SIGN": "yes"
+  },
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.toml$",
+        "cmd": "taplo format"
+      }
+    ]
+  }
+}
