@@ -13,5 +13,6 @@
         "cmd": "taplo format"
       }
     ]
-  }
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:pyenv"
 }
